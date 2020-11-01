@@ -1,0 +1,150 @@
+/* Global */
+
+body{
+  font:15px/1.5 Georgia, serif, sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#fff;
+}
+
+h1{
+  font-size:35px;
+  font-weight:900;
+}
+
+img{
+  max-width:100%;
+  max-height:100%;
+}
+
+.containerheader-1{
+  display:flex;
+  justify-content:space-between;
+  width:95%;
+  margin:auto;
+  overflow:hidden;
+}
+
+.containerheader-2{
+  display:flex;
+  justify-content:space-between;
+  width:95%;
+  margin:auto;
+  overflow:hidden;
+}
+
+.containernavbar{
+  display:flex;
+  justify-content:space-between;
+  width:95%;
+  margin:auto;
+  overflow:hidden;
+}
+
+.containermain{
+  width:95%;
+  margin:auto;
+  overflow:hidden;
+}
+
+.containersidebar{
+  margin:auto;
+  overflow:hidden;
+  min-width: 350px;
+}
+
+.containerfooter{
+  width:95%;
+  margin:auto;
+  overflow:hidden;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px){
+
+  header #headercomment{
+    display:none;
+  }
+
+  header .locationmenu{
+    display:none;
+  }
+
+  .sectionsbar{
+    display:none;
+  }
+
+  .navbaricon{
+    display:flex;
+  }
+
+  .containerheader-1{
+    flex-direction:column
+  }
+
+  .login button{
+    padding:1.5px 3px;
+    border-radius:4px;
+    background:#337ab7;
+    font-weight:bold;
+    font-size:10px;
+    color:white;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .pagecontainer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+  }
+
+  .containermain{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+  }
+
+  .containersidebar{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    width:250px;
+    padding-right:2.5vw;
+    margin-top:6vh;
+  }
+}
+
+@media screen and (min-width:980px){
+  .news{
+    flex-basis:45%;
+  }
+}
+
+@media screen and (min-width:1330px){
+  .news{
+    flex-basis:30%;
+  }
+}
+
+/* Tried to fix navbar and header but it seems  that flexbox and position:fixed
+ doesn't work well together
+
+.fixedcontainer{
+  position:fixed;
+  width:100%;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index:100;
+  margin:auto;
+}
+
+.unfixedcontainer{
+  display:flex;
+  z-index: -1;
+  margin:auto;
+}
+*/

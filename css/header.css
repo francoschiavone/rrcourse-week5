@@ -1,0 +1,155 @@
+/* Header */
+header{
+  background:#09232f;
+  color:#fff;
+  padding-top:0px;
+  min-height:50px;
+  border-bottom:#fff 2px solid;
+  text-align:center;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  flex:1;
+  order:1;
+}
+
+header #branding h1{
+  margin:0;
+  font-size:37px;
+}
+
+header #date{
+  position:relative;
+  flex:1;
+  order:0;
+  text-align:left;
+  padding-left:0px;
+  font-size:13px;
+}
+
+header #date p{
+  position:absolute;
+  bottom:0;
+  left:0;
+}
+
+header #headercomment{
+  position:relative;
+  flex:1;
+  order:2;
+  text-align:right;
+  padding-right:0px;
+  font-size:13px;
+}
+
+header #headercomment p{
+  position:absolute;
+  bottom:0;
+  right:0;
+}
+
+.iconbar{
+  flex:1;
+  align-self:flex-start;
+  text-align:left;
+  padding-top:3px;
+}
+
+.iconbar a{
+  width:20%;
+  padding:12px 0;
+  transition:all 0.3s ease;
+  color:white;
+  font-size:15px;
+}
+
+.locationmenu{
+  flex:1;
+  align-self:flex-end;
+  background-color:#09232f;
+  text-align:center;
+  text-transform:uppercase;
+  padding-top:3px;
+}
+
+.locationmenu a{
+  width:20%;
+  padding:12px 0;
+  transition:all 0.3s ease;
+  color:white;
+  font-size:11px;
+  text-decoration:none;
+}
+
+.login{
+  flex:1;
+  align-self:flex-end;
+  text-align:right;
+  padding-top:3px;
+}
+
+.login button{
+  padding:6px 12px;
+  border-radius:4px;
+  background:#337ab7;
+  font-weight:bold;
+  font-size: 10px;
+  color:white;
+}
+
+header .normal{
+  font-weight:normal;
+}
+
+header a:hover{
+  color:#ccc;
+  font-weight:bold;
+}
+
+/* Navbar */
+nav{
+  background:#09232f;
+  color:#fff;
+  padding: 2px 0;
+  border-bottom:#fff 2px solid;
+}
+
+.containernavbar{
+  display:flex;
+  justify-content:space-between;
+  width:95%;
+  margin:auto;
+  overflow:hidden;
+  text-align:center;
+}
+
+.navbaricon{
+  display:none;
+}
+
+.sectionsbar{
+  display:flex;
+  justify-content:space-between;
+  width:100%;
+  margin:auto;
+  overflow:hidden;
+  text-align:center;
+}
+
+.containernavbar a, .containernavbar p{
+  transition:all 0.3s ease;
+  color:white;
+  font-size:14px;
+  text-decoration:none;
+}
+
+.containernavbar a:hover{
+  color:#ccc;
+  font-weight:bold;
+}

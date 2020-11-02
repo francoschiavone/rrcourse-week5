@@ -1,9 +1,4 @@
-//Subscribe form link button
-
-/*
-var subs = document.getElementsById("subs")
-subs.addEventListener('click', redirect);
-*/
+//Subscribe button link
 
 function redirect(){
   window.location.href = "./subscription.html";

@@ -7,11 +7,15 @@
 }
 
 .containerform{
-  width:80%;
+  width:90%;
   border:none;
   border-radius:6px;
   margin:auto;
   overflow:hidden;
+}
+
+.containermainform h1{
+  margin-bottom:5px;
 }
 
 .form-label{
@@ -64,5 +68,8 @@
     display:flex;
     flex-wrap:wrap;
     width:45%;
+  }
+  .containermainform h1{
+    margin-bottom:10px;
   }
 }

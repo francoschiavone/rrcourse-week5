@@ -1,0 +1,68 @@
+/* Subscription form */
+
+.containermainform{
+  width:100%;
+  margin-top:8px;
+  text-align:center;
+}
+
+.containerform{
+  width:80%;
+  border:none;
+  border-radius:6px;
+  margin:auto;
+  overflow:hidden;
+}
+
+.form-label{
+  display:flex;
+  flex-direction:column;
+  margin-top:0.25%;
+  margin-bottom:1%;
+  text-align:left;
+}
+
+.form-input-title{
+  font-weight:bold;
+}
+
+.errormsg{
+  font-size:13px;
+  color:#e31717;
+}
+
+.container-button{
+  margin-top:15px;
+  margin-bottom:3px;
+}
+
+.form-button{
+  padding:6px 16px;
+  border-radius:4px;
+  background:#337ab7;
+  font-weight:bold;
+  font-size:15px;
+  color:white;
+  margin-bottom:8px;
+}
+
+@media screen and (min-width: 768px){
+  .containermainform{
+    display:flex;
+    flex-direction:column;
+  }
+  .containerform{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    border:groove;
+    width:70%;
+    max-width:900px;
+    margin:auto;
+  }
+  .subscription-form .form-label{
+    display:flex;
+    flex-wrap:wrap;
+    width:45%;
+  }
+}

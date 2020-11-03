@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/sidebar.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/form.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
@@ -72,13 +73,181 @@
       </div>
     </nav>
 
-    <div class="pagecontainer">
-      <main>
-        <div class="containermain">
+    <main>
+      <div class="containermainform">
+        <h1 class="form-title">Subscribe to Rosario Herald:</h1>
+        <form class="subscription-form" method="post">
+          <!-- Full name input -->
+          <div class="containerform">
+            <label for="fullname" class="form-label">
+              <span class="form-input-title">Full name:
+              </span>
+              <input type="text"
+                id="fullname"
+                onclick=""
+                onblur=""
+                oninput=""
+                placeholder="i.e. John Doe"
+              />
+              <span class="errormsg">
+                Use 7 characters or more with at least 1 space between first and last name.
+              </span>
+            </label>
 
+            <!-- Email input -->
+            <label for="email" class="form-label">
+              <span class="form-input-title">Email:
+              </span>
+              <input type="text"
+                id="email"
+                onclick=""
+                onblur=""
+                oninput=""
+                placeholder="i.e. Johndoe@mymail.com"
+              />
+              <span class="errormsg">
+                Please use a valid email adress.
+              </span>
+            </label>
+
+            <!-- Password -->
+            <label for="password" class="form-label">
+              <span class="form-input-title">Password:
+              </span>
+              <input type="text"
+                id="password"
+                onclick=""
+                onblur=""
+                oninput=""
+                placeholder="i.e. RRocket2020"
+              />
+              <span class="errormsg">
+                At least 8 characters. Only letters and numbers allowed.
+              </span>
+            </label>
+
+            <!-- Repeat password -->
+            <label for="repeat-password" class="form-label">
+              <span class="form-input-title">Repeat Password:
+              </span>
+              <input type="text"
+                id="repeat-password"
+                onclick=""
+                onblur=""
+                oninput=""
+                placeholder="i.e. RRocket2020"
+              />
+              <span class="errormsg">
+                Passwords doesn't match, please submit again.
+              </span>
+            </label>
+
+            <!-- Age -->
+            <label for="age" class="form-label">
+              <span class="form-input-title">Age:
+              </span>
+              <input type="text"
+                id="age"
+                onclick=""
+                onblur=""
+                oninput=""
+                placeholder="i.e. 20"
+              />
+              <span class="errormsg">
+                Please enter an integer equal to or greater than 18.
+              </span>
+            </label>
+
+            <!-- Phone number -->
+            <label for="phone-number" class="form-label">
+              <span class="form-input-title">Phone number:
+              </span>
+              <input type="text"
+                id="phone-number"
+                onclick=""
+                onblur=""
+                oninput=""
+                placeholder="i.e. 19127436536"
+
+              />
+              <span class="errormsg">
+                Please enter a valid phone number: at least 7 digits, without spaces, hyphens or parenthesis.
+              </span>
+            </label>
+
+            <!-- Adress -->
+            <label for="adress" class="form-label">
+              <span class="form-input-title">Adress:
+              </span>
+              <input type="text"
+                id="adress"
+                onclick=""
+                onblur=""
+                oninput=""
+                placeholder="i.e. 659 Mill Pond Ave. Brooklyn, NY 11235"
+              />
+              <span class="errormsg">
+                Please enter a valid adress: at least 5 characters, with at least 1 space between words.
+              </span>
+            </label>
+
+            <!-- City -->
+            <label for="city" class="form-label">
+              <span class="form-input-title">City:
+              </span>
+              <input type="text"
+                id="city"
+                onclick=""
+                onblur=""
+                oninput=""
+                placeholder="i.e. New York"
+              />
+              <span class="errormsg">
+                Please enter a valid adress: at least 3 characters.
+              </span>
+            </label>
+
+            <!-- Postal code -->
+            <label for="postal-code" class="form-label">
+              <span class="form-input-title">Postal Code:
+              </span>
+              <input type="text"
+                id="postal-code"
+                onclick=""
+                onblur=""
+                oninput=""
+                placeholder="i.e. 10001"
+              />
+              <span class="errormsg">
+                Please enter a valid postal code: at least 3 characters.
+              </span>
+            </label>
+
+            <!-- DNI -->
+            <label for="dni" class="form-label">
+              <span class="form-input-title">DNI:
+              </span>
+              <input type="text"
+                id="dni"
+                onclick=""
+                onblur=""
+                oninput=""
+                placeholder="i.e. 43500110"
+              />
+              <span class="errormsg">
+                Please enter a valid DNI: 7 or 8 digits number.
+              </span>
+            </label>
+          </div>
+        </form>
+        <!-- Submit Button -->
+        <div class="container-button">
+          <input type="submit" value="Send" class="form-button" />
         </div>
-      </main>
-    </div>
+
+      </div>
+    </main>
+
 
     <footer>
       <div class="containerfooter">

@@ -35,7 +35,7 @@
   color:#e31717;
 }
 
-.container-button{
+#container-button{
   margin-top:15px;
   margin-bottom:3px;
 }
@@ -48,6 +48,10 @@
   font-size:15px;
   color:white;
   margin-bottom:8px;
+}
+
+.errormsg{
+  display: none;
 }
 
 @media screen and (min-width: 768px){

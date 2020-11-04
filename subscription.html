@@ -77,6 +77,7 @@
       <div class="containermainform">
         <h1 class="form-title">Subscribe to Rosario Herald:</h1>
         <form class="subscription-form" method="post">
+
           <!-- Full name input -->
           <div class="containerform">
             <label for="fullname" class="form-label">
@@ -84,12 +85,9 @@
               </span>
               <input type="text"
                 id="fullname"
-                onclick=""
-                onblur=""
-                oninput=""
                 placeholder="i.e. John Doe"
               />
-              <span class="errormsg">
+              <span class="errormsg"><script src="./js/subs.js"></script>
                 Use 7 characters or more with at least 1 space between first and last name.
               </span>
             </label>
@@ -100,9 +98,6 @@
               </span>
               <input type="text"
                 id="email"
-                onclick=""
-                onblur=""
-                oninput=""
                 placeholder="i.e. Johndoe@mymail.com"
               />
               <span class="errormsg">
@@ -116,9 +111,6 @@
               </span>
               <input type="text"
                 id="password"
-                onclick=""
-                onblur=""
-                oninput=""
                 placeholder="i.e. RRocket2020"
               />
               <span class="errormsg">
@@ -132,9 +124,6 @@
               </span>
               <input type="text"
                 id="repeat-password"
-                onclick=""
-                onblur=""
-                oninput=""
                 placeholder="i.e. RRocket2020"
               />
               <span class="errormsg">
@@ -148,9 +137,6 @@
               </span>
               <input type="text"
                 id="age"
-                onclick=""
-                onblur=""
-                oninput=""
                 placeholder="i.e. 20"
               />
               <span class="errormsg">
@@ -164,9 +150,6 @@
               </span>
               <input type="text"
                 id="phone-number"
-                onclick=""
-                onblur=""
-                oninput=""
                 placeholder="i.e. 19127436536"
 
               />
@@ -181,13 +164,10 @@
               </span>
               <input type="text"
                 id="adress"
-                onclick=""
-                onblur=""
-                oninput=""
                 placeholder="i.e. 659 Mill Pond Ave. Brooklyn, NY 11235"
               />
               <span class="errormsg">
-                Please enter a valid adress: at least 5 characters, with at least 1 space between words.
+                Please enter a valid adress: numbers and letters, 5 characters or more, with at least 1 space between words.
               </span>
             </label>
 
@@ -197,13 +177,10 @@
               </span>
               <input type="text"
                 id="city"
-                onclick=""
-                onblur=""
-                oninput=""
                 placeholder="i.e. New York"
               />
               <span class="errormsg">
-                Please enter a valid adress: at least 3 characters.
+                Please enter a valid city: at least 3 characters.
               </span>
             </label>
 
@@ -213,9 +190,6 @@
               </span>
               <input type="text"
                 id="postal-code"
-                onclick=""
-                onblur=""
-                oninput=""
                 placeholder="i.e. 10001"
               />
               <span class="errormsg">
@@ -229,9 +203,6 @@
               </span>
               <input type="text"
                 id="dni"
-                onclick=""
-                onblur=""
-                oninput=""
                 placeholder="i.e. 43500110"
               />
               <span class="errormsg">
@@ -241,7 +212,7 @@
           </div>
         </form>
         <!-- Submit Button -->
-        <div class="container-button">
+        <div id="container-button">
           <input type="submit" value="Send" class="form-button" />
         </div>
 
@@ -255,5 +226,6 @@
         <a href="./index.html">Back to Frontpage</a>
       </div>
     </footer>
+    <script src="./js/subs.js"></script>
   </body>
 </html>

@@ -58,6 +58,11 @@ img{
   overflow:hidden;
 }
 
+.subscription-form .show-error {
+  display: inline;
+}
+
+
 /* Media Queries */
 @media screen and (max-width: 768px){
 
